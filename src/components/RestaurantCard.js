@@ -13,8 +13,8 @@ const RestaurantCard = (props) => {
         deliveryTime
     } = restData?.data
     return(
-        <div className="res-data" style={{backgroundColor: '#f0f0f0', display: 'flex', flexDirection:'column'}}>
-            <img src={CDN_URL + cloudinaryImageId} className="res-logo" alt="res-logo" />
+        <div className="res-data" style={{backgroundColor: '#f0f0f0', display: 'flex', flexDirection:'column', padding: '5px' , width: '20%', flexWrap: 'wrap'}}>
+            <img src={CDN_URL + cloudinaryImageId} className="res-logo" alt="res-logo" width='100%' />
             <h3>{name}</h3>
             <h4>{cuisines.join(', ')}</h4>
             <p>{avgRating}</p>

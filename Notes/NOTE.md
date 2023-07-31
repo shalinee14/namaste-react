@@ -12,6 +12,9 @@ most IMP packege is bunddle(which comparess, clean , minified, bunddle our app) 
 1. dev dependency (development phase)
 2. normal dependancy (for production phase)
 
+if install any npm plugin in react configuration and version will go inside the package.json and code will go inside node module.
+
+
 parcel : '^2.8.3'
 ^ is responsible if minor version is updated then automatically version will update on app 
 
@@ -82,3 +85,32 @@ import Component from '../path'
 - Named Export/Import 
 export const Component;
 import {component} from 'path'
+
+UseState - Create state variable maintain state of your component. 
+when state vairable is update/chnages react will re-render the component
+
+why react is fast/optimize? 
+- React doesn't do anything that it is  good at DOM operation/ DOM manipulation, it manipulate DOM very quickly
+
+Reconcilation Algorithm, diff algoritham and React fiber (React about google acdilite(github link))
+- In the we have DOM tree 
+
+What is diff algoritham
+- basicall finds out of differenct bt/w updated VDOM and previous VDOM
+for ex. restoCard has 7 card after click the button on UI the new vDOM created has 3 card to tryies to find out the differect b/w old and new VDOM (4Card) it will then actually udpate the DOM.
+
+- Virtual DOM is representation of actual DOM (VDOM has nested Object)
+
+[listOfResto, setListOfResto] = useState(resList)
+ASA setListOfResto calls reconcilation algorithm starts and re-rendering your page 
+- listOfResto => re-rendered data again and again (evertytime state is changing react keep eye on state , react is monitoring constantly and why this happen due to spacial variable useState) (find out the div and update the UI)
+- setListOfResto => ASA setListOfResto called  react starts reconcilation/re-rendering algorithm ant updated the data again and again (find out the div and update the UI) 
+Why two things, why not only one bcz there needs to be trigger to start the Diff algo and update the UI that's why needed the 2nd function it will automaticall;y re rendering your component
+
+[listOfResto, setListOfResto] this is arr destructuring how see below 
+const arr = useState(resList)
+[listOfResto, setListOfResto] = arr; or like 
+const listOfResto = arr[0];
+const setListOfResto = arr[1];
+
+it is same useState return array. 

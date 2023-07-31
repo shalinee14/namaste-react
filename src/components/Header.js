@@ -1,5 +1,5 @@
 import { LOGO_URL } from './utils/constants'
-export const Header = () => {
+const Header = () => {
     return (
         <div className="header" 
             style={{
@@ -30,4 +30,4 @@ export const Header = () => {
     )
 }
 
- 
+export default Header
