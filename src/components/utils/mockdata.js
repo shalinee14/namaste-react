@@ -2,7 +2,7 @@ const restList =  [
  
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "709824",
         "name": "Indi-Charcoal",
@@ -123,7 +123,7 @@ const restList =  [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "69420",
         "name": "Vijay Chaat House",
@@ -235,7 +235,7 @@ const restList =  [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "625001",
         "name": "Bhadrakali Pizza'S",
@@ -344,7 +344,7 @@ const restList =  [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "672585",
         "name": "La Pino'z Pizza",
@@ -462,7 +462,7 @@ const restList =  [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "248318",
         "name": "Ravi Alpahar-Nagar Nigam",
@@ -572,7 +572,7 @@ const restList =  [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "84070",
         "name": "Gurukripa Restaurant  Sarwate",
@@ -695,7 +695,7 @@ const restList =  [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "425796",
         "name": "Om Namkeen",
@@ -810,7 +810,7 @@ const restList =  [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "70092",
         "name": "prakash kulfi faluda",
@@ -919,7 +919,7 @@ const restList =  [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "158162",
         "name": "Mahakal Chat Corner",
@@ -1035,7 +1035,7 @@ const restList =  [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "514794",
         "name": "Sourashtra Ras Kendra",
@@ -1156,7 +1156,7 @@ const restList =  [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "590263",
         "name": "Maa Kali Bhojnalaya",
@@ -1265,7 +1265,7 @@ const restList =  [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "113763",
         "name": "Shahi Khaman - Jalaram Farsan",
@@ -1382,7 +1382,7 @@ const restList =  [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "590002",
         "name": "Gurukripa Scheme No 140",
@@ -1507,7 +1507,7 @@ const restList =  [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "69746",
         "name": "Arihant Dal Bati",
@@ -1623,7 +1623,7 @@ const restList =  [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "199662",
         "name": "Apna Sweets",

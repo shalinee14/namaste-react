@@ -92,6 +92,9 @@ when state vairable is update/chnages react will re-render the component
 why react is fast/optimize? 
 - React doesn't do anything that it is  good at DOM operation/ DOM manipulation, it manipulate DOM very quickly
 
+WHy React is so fast?
+- bcz of react fiber, react reconcilation algoarityhm, react check difference btw old and new vdom  and update the paerticulrar element that required(for example input field value)
+
 Reconcilation Algorithm, diff algoritham and React fiber (React about google acdilite(github link))
 - In the we have DOM tree 
 
@@ -114,3 +117,29 @@ const listOfResto = arr[0];
 const setListOfResto = arr[1];
 
 it is same useState return array. 
+
+UseEffect - it is just normal javascript function 
+- useEffect has two arguments first is callback function and 2nd is dependecy array 
+
+When will this useEffect call this callback function ? 
+- this callback function will be called after your component renderes, asa bodycomponent rendered useeffect callback function will be called. 
+if you want to anything after the component rendering you can write useeffect and add callback function inside that. this it the purpose of useEffect. 
+
+Fetch() super power of browser
+
+CORS POLICY - 
+Our browser that chrome not allowing us to call swiggy's API from localhost (from one origin to another origin) if broswers mismatch browser blocks that API call that is CORS policy(watch CORS video)
+
+CROS extention for brwser to avoid thit issue. 
+
+const [btnName, setBtnName] = useState('login')
+
+<header>
+    <Button onClick={() => setBtnName('logout')}>{btnName}</Button>
+</header>
+
+First header compo will render and button value will be login but if clicks on button header compo will re-render again and create new instance of btnName and take new value logout instead of default value. this is the actual beauty of REACT , react trackes everything. 
+header will re-render and  it will  find the btnName in older version and newer version  and it will check only button is getting updated so update btnName refrence in react 
+
+
+WHenever state variable update, react triggers a reconcilation cycle (re-renderes the component)

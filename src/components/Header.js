@@ -18,12 +18,12 @@ const Header = () => {
                 <ul style={{
                     display: 'flex',
                     listStyle: 'none',
-                   
                 }}>
                     <li style={{ padding: '0 20px', display: 'flex'}}>Home</li>
                     <li style={{ padding: '0 20px', display: 'flex'}}>About Us</li>
                     <li style={{ padding: '0 20px', display: 'flex'}}>Contact Us</li>
                     <li style={{ padding: '0 20px', display: 'flex'}}>Cart</li>
+                    <li style={{ padding: '0 20px', display: 'flex'}}>Login</li>
                 </ul>
             </div>
         </div>

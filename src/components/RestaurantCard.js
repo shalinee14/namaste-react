@@ -2,7 +2,8 @@ import { CDN_URL } from "./utils/constants";
 
 const RestaurantCard = (props) => {
 
-    const {restData} = props;
+    const {resList} = props;
+  
 
     const {
         cloudinaryImageId,
@@ -11,7 +12,7 @@ const RestaurantCard = (props) => {
         cuisines,
         costForTwo, 
         deliveryTime
-    } = restData?.data
+    } = resList?.info
     return(
         <div className="res-data" style={{backgroundColor: '#f0f0f0', display: 'flex', flexDirection:'column', padding: '5px' , width: '20%', flexWrap: 'wrap'}}>
             <img src={CDN_URL + cloudinaryImageId} className="res-logo" alt="res-logo" width='100%' />
